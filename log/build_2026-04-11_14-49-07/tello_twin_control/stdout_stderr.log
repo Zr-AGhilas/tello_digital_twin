@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/tello_twin_control/tello_twin_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/tello_twin_control/tello_twin_control.egg-info/dependency_links.txt
+writing entry points to ../../build/tello_twin_control/tello_twin_control.egg-info/entry_points.txt
+writing requirements to ../../build/tello_twin_control/tello_twin_control.egg-info/requires.txt
+writing top-level names to ../../build/tello_twin_control/tello_twin_control.egg-info/top_level.txt
+reading manifest file '../../build/tello_twin_control/tello_twin_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/tello_twin_control/tello_twin_control.egg-info/SOURCES.txt'
+running build
+running build_py
+copying tello_twin_control/gazebo_pose_sender.py -> /home/aghilas/tello_twin_ws/build/tello_twin_control/build/lib/tello_twin_control
+running install
+running install_lib
+copying /home/aghilas/tello_twin_ws/build/tello_twin_control/build/lib/tello_twin_control/gazebo_pose_sender.py -> /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages/tello_twin_control
+byte-compiling /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages/tello_twin_control/gazebo_pose_sender.py to gazebo_pose_sender.cpython-312.pyc
+  File "/home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages/tello_twin_control/gazebo_pose_sender.py", line 71
+    def main(args=None):
+SyntaxError: expected 'except' or 'finally' block
+
+running install_data
+running install_egg_info
+removing '/home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages/tello_twin_control-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/tello_twin_control/tello_twin_control.egg-info to /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages/tello_twin_control-0.0.0-py3.12.egg-info
+running install_scripts
+Installing cmd_test script to /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/tello_twin_control
+Installing gazebo_pose_sender script to /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/tello_twin_control
+Installing simple_dynamics script to /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/tello_twin_control
+writing list of installed files to '/home/aghilas/tello_twin_ws/build/tello_twin_control/install.log'

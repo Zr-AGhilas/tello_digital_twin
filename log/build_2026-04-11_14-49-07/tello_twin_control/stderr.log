@@ -1,0 +1,4 @@
+  File "/home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages/tello_twin_control/gazebo_pose_sender.py", line 71
+    def main(args=None):
+SyntaxError: expected 'except' or 'finally' block
+

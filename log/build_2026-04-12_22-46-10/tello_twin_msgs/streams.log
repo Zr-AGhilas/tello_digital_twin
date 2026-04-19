@@ -1,0 +1,17 @@
+[0.857s] Invoking command in '/home/aghilas/tello_twin_ws/build/tello_twin_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aghilas/tello_twin_ws/build/tello_twin_msgs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aghilas/tello_twin_ws/install/tello_twin_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aghilas/tello_twin_ws/build/tello_twin_msgs/build --no-deps symlink_data --force
+[1.076s] running develop
+[1.208s] running egg_info
+[1.220s] writing tello_twin_msgs.egg-info/PKG-INFO
+[1.220s] writing dependency_links to tello_twin_msgs.egg-info/dependency_links.txt
+[1.220s] writing requirements to tello_twin_msgs.egg-info/requires.txt
+[1.220s] writing top-level names to tello_twin_msgs.egg-info/top_level.txt
+[1.246s] reading manifest file 'tello_twin_msgs.egg-info/SOURCES.txt'
+[1.247s] writing manifest file 'tello_twin_msgs.egg-info/SOURCES.txt'
+[1.260s] running build_ext
+[1.260s] Creating /home/aghilas/tello_twin_ws/install/tello_twin_msgs/lib/python3.12/site-packages/tello-twin-msgs.egg-link (link to .)
+[1.261s] 
+[1.261s] Installed /home/aghilas/tello_twin_ws/build/tello_twin_msgs
+[1.261s] running symlink_data
+[1.261s] symbolically linking /home/aghilas/tello_twin_ws/build/tello_twin_msgs/resource/tello_twin_msgs -> /home/aghilas/tello_twin_ws/install/tello_twin_msgs/share/ament_index/resource_index/packages
+[1.261s] symbolically linking /home/aghilas/tello_twin_ws/build/tello_twin_msgs/package.xml -> /home/aghilas/tello_twin_ws/install/tello_twin_msgs/share/tello_twin_msgs
+[1.291s] Invoked command in '/home/aghilas/tello_twin_ws/build/tello_twin_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aghilas/tello_twin_ws/build/tello_twin_msgs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aghilas/tello_twin_ws/install/tello_twin_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/aghilas/tello_twin_ws/build/tello_twin_msgs/build --no-deps symlink_data --force

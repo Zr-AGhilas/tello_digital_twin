@@ -1,0 +1,19 @@
+[1.630s] Invoking command in '/home/aghilas/tello_twin_ws/src/tello_twin_msgs': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aghilas/tello_twin_ws/build/tello_twin_msgs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aghilas/tello_twin_ws/install/tello_twin_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_twin_msgs build --build-base /home/aghilas/tello_twin_ws/build/tello_twin_msgs/build install --record /home/aghilas/tello_twin_ws/build/tello_twin_msgs/install.log --single-version-externally-managed install_data
+[2.084s] running egg_info
+[2.117s] writing ../../build/tello_twin_msgs/tello_twin_msgs.egg-info/PKG-INFO
+[2.118s] writing dependency_links to ../../build/tello_twin_msgs/tello_twin_msgs.egg-info/dependency_links.txt
+[2.118s] writing requirements to ../../build/tello_twin_msgs/tello_twin_msgs.egg-info/requires.txt
+[2.118s] writing top-level names to ../../build/tello_twin_msgs/tello_twin_msgs.egg-info/top_level.txt
+[2.184s] reading manifest file '../../build/tello_twin_msgs/tello_twin_msgs.egg-info/SOURCES.txt'
+[2.186s] writing manifest file '../../build/tello_twin_msgs/tello_twin_msgs.egg-info/SOURCES.txt'
+[2.187s] running build
+[2.187s] running build_py
+[2.187s] running install
+[2.201s] running install_lib
+[2.234s] running install_data
+[2.235s] running install_egg_info
+[2.269s] removing '/home/aghilas/tello_twin_ws/install/tello_twin_msgs/lib/python3.12/site-packages/tello_twin_msgs-0.0.0-py3.12.egg-info' (and everything under it)
+[2.269s] Copying ../../build/tello_twin_msgs/tello_twin_msgs.egg-info to /home/aghilas/tello_twin_ws/install/tello_twin_msgs/lib/python3.12/site-packages/tello_twin_msgs-0.0.0-py3.12.egg-info
+[2.270s] running install_scripts
+[2.492s] writing list of installed files to '/home/aghilas/tello_twin_ws/build/tello_twin_msgs/install.log'
+[2.565s] Invoked command in '/home/aghilas/tello_twin_ws/src/tello_twin_msgs' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aghilas/tello_twin_ws/build/tello_twin_msgs/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aghilas/tello_twin_ws/install/tello_twin_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_twin_msgs build --build-base /home/aghilas/tello_twin_ws/build/tello_twin_msgs/build install --record /home/aghilas/tello_twin_ws/build/tello_twin_msgs/install.log --single-version-externally-managed install_data

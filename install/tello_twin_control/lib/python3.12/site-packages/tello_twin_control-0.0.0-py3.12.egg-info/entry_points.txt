@@ -1,0 +1,5 @@
+[console_scripts]
+cmd_test = tello_twin_control.cmd_test:main
+gazebo_pose_sender = tello_twin_control.gazebo_pose_sender:main
+gz_pose_relay = tello_twin_control.gz_pose_relay:main
+simple_dynamics = tello_twin_control.simple_dynamics:main

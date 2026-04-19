@@ -1,0 +1,26 @@
+[1.378s] Invoking command in '/home/aghilas/tello_twin_ws/src/tello_twin_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aghilas/tello_twin_ws/build/tello_twin_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_twin_control build --build-base /home/aghilas/tello_twin_ws/build/tello_twin_control/build install --record /home/aghilas/tello_twin_ws/build/tello_twin_control/install.log --single-version-externally-managed install_data
+[1.694s] running egg_info
+[1.716s] writing ../../build/tello_twin_control/tello_twin_control.egg-info/PKG-INFO
+[1.717s] writing dependency_links to ../../build/tello_twin_control/tello_twin_control.egg-info/dependency_links.txt
+[1.717s] writing entry points to ../../build/tello_twin_control/tello_twin_control.egg-info/entry_points.txt
+[1.718s] writing requirements to ../../build/tello_twin_control/tello_twin_control.egg-info/requires.txt
+[1.718s] writing top-level names to ../../build/tello_twin_control/tello_twin_control.egg-info/top_level.txt
+[1.761s] reading manifest file '../../build/tello_twin_control/tello_twin_control.egg-info/SOURCES.txt'
+[1.761s] writing manifest file '../../build/tello_twin_control/tello_twin_control.egg-info/SOURCES.txt'
+[1.761s] running build
+[1.762s] running build_py
+[1.762s] copying tello_twin_control/cmd_test.py -> /home/aghilas/tello_twin_ws/build/tello_twin_control/build/lib/tello_twin_control
+[1.762s] running install
+[1.770s] running install_lib
+[1.794s] copying /home/aghilas/tello_twin_ws/build/tello_twin_control/build/lib/tello_twin_control/cmd_test.py -> /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages/tello_twin_control
+[1.795s] byte-compiling /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages/tello_twin_control/cmd_test.py to cmd_test.cpython-312.pyc
+[1.795s] running install_data
+[1.796s] running install_egg_info
+[1.823s] removing '/home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages/tello_twin_control-0.0.0-py3.12.egg-info' (and everything under it)
+[1.823s] Copying ../../build/tello_twin_control/tello_twin_control.egg-info to /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages/tello_twin_control-0.0.0-py3.12.egg-info
+[1.824s] running install_scripts
+[1.974s] Installing cmd_test script to /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/tello_twin_control
+[1.975s] Installing gazebo_pose_sender script to /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/tello_twin_control
+[1.976s] Installing simple_dynamics script to /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/tello_twin_control
+[1.976s] writing list of installed files to '/home/aghilas/tello_twin_ws/build/tello_twin_control/install.log'
+[2.031s] Invoked command in '/home/aghilas/tello_twin_ws/src/tello_twin_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aghilas/tello_twin_ws/build/tello_twin_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_twin_control build --build-base /home/aghilas/tello_twin_ws/build/tello_twin_control/build install --record /home/aghilas/tello_twin_ws/build/tello_twin_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,21 @@
+[3.729s] Invoking command in '/home/aghilas/tello_twin_ws/src/tello_twin_logging': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aghilas/tello_twin_ws/build/tello_twin_logging/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aghilas/tello_twin_ws/install/tello_twin_logging/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_twin_logging build --build-base /home/aghilas/tello_twin_ws/build/tello_twin_logging/build install --record /home/aghilas/tello_twin_ws/build/tello_twin_logging/install.log --single-version-externally-managed install_data
+[4.648s] running egg_info
+[4.708s] writing ../../build/tello_twin_logging/tello_twin_logging.egg-info/PKG-INFO
+[4.710s] writing dependency_links to ../../build/tello_twin_logging/tello_twin_logging.egg-info/dependency_links.txt
+[4.711s] writing entry points to ../../build/tello_twin_logging/tello_twin_logging.egg-info/entry_points.txt
+[4.711s] writing requirements to ../../build/tello_twin_logging/tello_twin_logging.egg-info/requires.txt
+[4.711s] writing top-level names to ../../build/tello_twin_logging/tello_twin_logging.egg-info/top_level.txt
+[4.839s] reading manifest file '../../build/tello_twin_logging/tello_twin_logging.egg-info/SOURCES.txt'
+[4.841s] writing manifest file '../../build/tello_twin_logging/tello_twin_logging.egg-info/SOURCES.txt'
+[4.842s] running build
+[4.842s] running build_py
+[4.843s] running install
+[4.865s] running install_lib
+[4.930s] running install_data
+[4.930s] running install_egg_info
+[4.995s] removing '/home/aghilas/tello_twin_ws/install/tello_twin_logging/lib/python3.12/site-packages/tello_twin_logging-0.0.0-py3.12.egg-info' (and everything under it)
+[4.996s] Copying ../../build/tello_twin_logging/tello_twin_logging.egg-info to /home/aghilas/tello_twin_ws/install/tello_twin_logging/lib/python3.12/site-packages/tello_twin_logging-0.0.0-py3.12.egg-info
+[5.000s] running install_scripts
+[5.421s] Installing logger_node script to /home/aghilas/tello_twin_ws/install/tello_twin_logging/lib/tello_twin_logging
+[5.423s] writing list of installed files to '/home/aghilas/tello_twin_ws/build/tello_twin_logging/install.log'
+[5.509s] Invoked command in '/home/aghilas/tello_twin_ws/src/tello_twin_logging' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aghilas/tello_twin_ws/build/tello_twin_logging/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aghilas/tello_twin_ws/install/tello_twin_logging/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tello_twin_logging build --build-base /home/aghilas/tello_twin_ws/build/tello_twin_logging/build install --record /home/aghilas/tello_twin_ws/build/tello_twin_logging/install.log --single-version-externally-managed install_data

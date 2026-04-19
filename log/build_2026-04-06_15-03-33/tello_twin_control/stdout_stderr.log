@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/tello_twin_control/tello_twin_control.egg-info
+writing ../../build/tello_twin_control/tello_twin_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/tello_twin_control/tello_twin_control.egg-info/dependency_links.txt
+writing requirements to ../../build/tello_twin_control/tello_twin_control.egg-info/requires.txt
+writing top-level names to ../../build/tello_twin_control/tello_twin_control.egg-info/top_level.txt
+writing manifest file '../../build/tello_twin_control/tello_twin_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/tello_twin_control/tello_twin_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/tello_twin_control/tello_twin_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aghilas/tello_twin_ws/build/tello_twin_control/build
+creating /home/aghilas/tello_twin_ws/build/tello_twin_control/build/lib
+creating /home/aghilas/tello_twin_ws/build/tello_twin_control/build/lib/tello_twin_control
+copying tello_twin_control/__init__.py -> /home/aghilas/tello_twin_ws/build/tello_twin_control/build/lib/tello_twin_control
+running install
+running install_lib
+creating /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages/tello_twin_control
+copying /home/aghilas/tello_twin_ws/build/tello_twin_control/build/lib/tello_twin_control/__init__.py -> /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages/tello_twin_control
+byte-compiling /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages/tello_twin_control/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/aghilas/tello_twin_ws/install/tello_twin_control/share/ament_index
+creating /home/aghilas/tello_twin_ws/install/tello_twin_control/share/ament_index/resource_index
+creating /home/aghilas/tello_twin_ws/install/tello_twin_control/share/ament_index/resource_index/packages
+copying resource/tello_twin_control -> /home/aghilas/tello_twin_ws/install/tello_twin_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/aghilas/tello_twin_ws/install/tello_twin_control/share/tello_twin_control
+running install_egg_info
+Copying ../../build/tello_twin_control/tello_twin_control.egg-info to /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages/tello_twin_control-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/aghilas/tello_twin_ws/build/tello_twin_control/install.log'

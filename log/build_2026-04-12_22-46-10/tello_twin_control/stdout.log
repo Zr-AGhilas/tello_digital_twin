@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing tello_twin_control.egg-info/PKG-INFO
+writing dependency_links to tello_twin_control.egg-info/dependency_links.txt
+writing entry points to tello_twin_control.egg-info/entry_points.txt
+writing requirements to tello_twin_control.egg-info/requires.txt
+writing top-level names to tello_twin_control.egg-info/top_level.txt
+reading manifest file 'tello_twin_control.egg-info/SOURCES.txt'
+writing manifest file 'tello_twin_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/python3.12/site-packages/tello-twin-control.egg-link (link to .)
+Installing cmd_test script to /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/tello_twin_control
+Installing gazebo_pose_sender script to /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/tello_twin_control
+Installing gz_pose_relay script to /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/tello_twin_control
+Installing simple_dynamics script to /home/aghilas/tello_twin_ws/install/tello_twin_control/lib/tello_twin_control
+
+Installed /home/aghilas/tello_twin_ws/build/tello_twin_control
+running symlink_data
+symbolically linking /home/aghilas/tello_twin_ws/build/tello_twin_control/resource/tello_twin_control -> /home/aghilas/tello_twin_ws/install/tello_twin_control/share/ament_index/resource_index/packages
+symbolically linking /home/aghilas/tello_twin_ws/build/tello_twin_control/package.xml -> /home/aghilas/tello_twin_ws/install/tello_twin_control/share/tello_twin_control

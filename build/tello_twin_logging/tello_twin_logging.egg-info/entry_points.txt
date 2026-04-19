@@ -1,0 +1,2 @@
+[console_scripts]
+logger_node = tello_twin_logging.logger_node:main
