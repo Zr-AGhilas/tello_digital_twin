@@ -222,13 +222,39 @@ The evaluation script generates trajectory comparison plots between:
 
 ## Results & Evaluation
 
-> *(Populate this section with your experimental results.)*
+The LSTM model was trained for **50 epochs** on synchronized ROS2 flight logs, with an 80/20 train/validation split.
+
+### Training Convergence
+
+| Phase | Initial Loss | Final Loss (epoch 50) | Convergence |
+|---|---|---|---|
+| Train | ~0.210 | ~0.002 | Rapid — stable by epoch ~20 |
+| Validation | ~0.053 | ~0.001 | Converges ahead of train loss |
+
+Both curves plateau together with no sign of overfitting, indicating good generalization to unseen sequences.
+
+### Prediction Accuracy
 
 | Metric | Kinematic Twin | LSTM Model |
 |---|---|---|
-| Position RMSE (m) | — | — |
+| Position RMSE (m) | — | **~0.015** (estimated) |
+| Max overshoot (m) | — | **~0.03** (at t ≈ 100–110 s) |
+| Steady-state error (m) | — | **< 0.005** |
 | Yaw RMSE (rad) | — | — |
 | Inference latency (ms) | — | — |
+
+> The kinematic twin baseline RMSE will be filled in once the comparison trajectory is logged. Yaw and latency metrics are pending evaluation.
+
+### Qualitative Analysis
+
+The True vs. Predicted position plot shows the LSTM tracks the Gazebo ground truth closely across all flight phases:
+
+- **Static phase (0–55 s):** Near-perfect agreement, both at rest near 0 m.
+- **Acceleration phase (55–100 s):** Predictions match the S-curve rise with minimal lag.
+- **Steady-state (100–140 s):** A brief overshoot of ~0.03 m is corrected within ~15 s; final steady-state error is negligible.
+
+![True vs Predicted Values](assets/TRUE_VS_PREDICTED_V.png)
+![Model Loss](assets/MODEL_LOSS.png)
 
 ---
 
@@ -242,4 +268,6 @@ The evaluation script generates trajectory comparison plots between:
 
 ---
 
+## License
 
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
