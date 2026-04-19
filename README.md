@@ -152,7 +152,7 @@ mkdir -p ~/tello_twin_ws/src
 cd ~/tello_twin_ws/src
 
 # 2. Clone the repository
-git clone <your-repo-link> .
+git clone <https://github.com/Zr-AGhilas/tello_digital_twin> .
 
 # 3. Build
 cd ~/tello_twin_ws
