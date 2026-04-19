@@ -242,6 +242,4 @@ The evaluation script generates trajectory comparison plots between:
 
 ---
 
-## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
